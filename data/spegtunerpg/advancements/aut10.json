@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Pecking Order"
+        },
+        "description": {
+            "text": "Reach Level 10 in Authority."
+        },
+        "icon": {
+            "item": "minecraft:lead"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "aut10": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "aut10"
+        ]
+    ],
+    "parent": "spegtunerpg:aut1"
+}

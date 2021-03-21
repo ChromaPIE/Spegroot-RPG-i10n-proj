@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Shivering Cold AC"
+        },
+        "description": {
+            "text": "Reach Level 40 in Armor. Lets you cast Star Storm using a Spectral Arrow and 8 XP Levels. Summons an array of Spectral Arrows in a 10 block cone."
+        },
+        "icon": {
+            "item": "minecraft:iron_leggings"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "arm40": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "arm40"
+        ]
+    ],
+    "parent": "spegtunerpg:arm30"
+}

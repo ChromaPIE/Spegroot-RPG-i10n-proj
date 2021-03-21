@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Terraformer"
+        },
+        "description": {
+            "text": "Reach Level 40 in Landscaping."
+        },
+        "icon": {
+            "item": "minecraft:stone_axe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lan40": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "lan40"
+        ]
+    ],
+    "parent": "spegtunerpg:lan30"
+}

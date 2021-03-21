@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "You're No Claude"
+        },
+        "description": {
+            "text": "Reach Level 30 in Ranged."
+        },
+        "icon": {
+            "item": "minecraft:stick"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ran30": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "ran30"
+        ]
+    ],
+    "parent": "spegtunerpg:ran20"
+}

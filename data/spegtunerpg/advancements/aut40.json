@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The General"
+        },
+        "description": {
+            "text": "Reach Level 40 in Authority. Gain the ability to cast Star Storm using 8XP levels and a Spectral Arrow. Summons a rain of arrows in a 16 block cone."
+        },
+        "icon": {
+            "item": "minecraft:turtle_helmet"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "aut40": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "aut40"
+        ]
+    ],
+    "parent": "spegtunerpg:aut30"
+}

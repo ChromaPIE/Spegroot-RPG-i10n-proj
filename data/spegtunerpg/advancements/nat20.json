@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "We Are Farmers"
+        },
+        "description": {
+            "text": "Reach Level 20 in Naturecraft. Lets the user cast Bee Smog using a Honeycomb and 6 XP Levels. Summons a swarm of temporary bees around the user."
+        },
+        "icon": {
+            "item": "minecraft:melon_seeds"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "nat20": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "nat20"
+        ]
+    ],
+    "parent": "spegtunerpg:nat10"
+}

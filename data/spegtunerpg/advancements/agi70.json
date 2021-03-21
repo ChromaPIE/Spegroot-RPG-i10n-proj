@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Swift as Wind"
+        },
+        "description": {
+            "text": "Reach Level 70 in Agility. Your sprinting bonus is now Speed II."
+        },
+        "icon": {
+            "item": "minecraft:oak_leaves"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "agi70": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "agi70"
+        ]
+    ],
+    "parent": "spegtunerpg:agi60"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Pure Grit"
+        },
+        "description": {
+            "text": "Reach Level 80 in Strength. Your Blood Rage now gives you 8 hearts."
+        },
+        "icon": {
+            "item": "minecraft:dark_oak_log"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "str80": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "str80"
+        ]
+    ],
+    "parent": "spegtunerpg:str70"
+}

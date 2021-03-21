@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "\"Now That's Axes And Stuff!\""
+        },
+        "description": {
+            "text": "Reach Level 70 in Strength."
+        },
+        "icon": {
+            "item": "minecraft:diamond_axe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "str70": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "str70"
+        ]
+    ],
+    "parent": "spegtunerpg:str60"
+}

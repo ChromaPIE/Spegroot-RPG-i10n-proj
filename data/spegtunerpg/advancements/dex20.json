@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Pac & Slash"
+        },
+        "description": {
+            "text": "Reach Level 20 in Dexterity. Your critical strike is now Strength III."
+        },
+        "icon": {
+            "item": "minecraft:yellow_concrete_powder"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dex20": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "dex20"
+        ]
+    ],
+    "parent": "spegtunerpg:dex10"
+}

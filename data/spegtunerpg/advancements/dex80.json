@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Slashing Through The Heavens"
+        },
+        "description": {
+            "text": "Reach Level 80 in Dexterity. Your Critical Strike is now Strength IV."
+        },
+        "icon": {
+            "item": "minecraft:quartz"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dex80": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "dex80"
+        ]
+    ],
+    "parent": "spegtunerpg:dex70"
+}

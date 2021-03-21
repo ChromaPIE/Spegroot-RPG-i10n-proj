@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Hard Day's Work"
+        },
+        "description": {
+            "text": "Reach Level 1 in Landscaping. Haste Breaking effect up to 30s. Scales with level."
+        },
+        "icon": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lan1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "lan1"
+        ]
+    ],
+    "parent": "spegtunerpg:root"
+}

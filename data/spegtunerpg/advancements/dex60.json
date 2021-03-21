@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Chop Chop!"
+        },
+        "description": {
+            "text": "Reach Level 60 in Dexterity."
+        },
+        "icon": {
+            "item": "minecraft:cooked_porkchop"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dex60": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "dex60"
+        ]
+    ],
+    "parent": "spegtunerpg:dex50"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Completely Slammed"
+        },
+        "description": {
+            "text": "Reach Level 50 in Strength. Your Blood Rage now lasts for 20 seconds."
+        },
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "str50": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "str50"
+        ]
+    ],
+    "parent": "spegtunerpg:str40"
+}

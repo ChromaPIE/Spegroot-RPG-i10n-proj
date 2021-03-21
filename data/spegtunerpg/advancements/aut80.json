@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Death Knight"
+        },
+        "description": {
+            "text": "Reach Level 80 in Authority. Lets you cast the Death Aura spell with a wither rose and 20 XP Levels, giving Wither III to all within 28 blocks."
+        },
+        "icon": {
+            "item": "minecraft:stone_hoe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "aut80": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "aut80"
+        ]
+    ],
+    "parent": "spegtunerpg:aut70"
+}

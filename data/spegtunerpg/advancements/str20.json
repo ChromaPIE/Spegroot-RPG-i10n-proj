@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Firmly Grasp It"
+        },
+        "description": {
+            "text": "Reach Level 20 in Strength. Your Blood Rage now has 6 Hearts."
+        },
+        "icon": {
+            "item": "minecraft:cobweb"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "str20": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "str20"
+        ]
+    ],
+    "parent": "spegtunerpg:str10"
+}

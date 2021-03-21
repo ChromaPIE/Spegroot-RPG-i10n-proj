@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Authority++"
+        },
+        "description": {
+            "text": "Reach Level 100 in Authority."
+        },
+        "icon": {
+            "item": "minecraft:music_disc_chirp"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {},
+    "requirements": [
+        [
+            "aut100"
+        ]
+    ],
+    "parent": "spegtunerpg:aut90"
+}

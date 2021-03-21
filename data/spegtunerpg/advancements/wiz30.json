@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Spell Bullet Shooter"
+        },
+        "description": {
+            "text": "Reach Level 30 in Wizardry. Lets you cast the True Sight spell with Fermented Spider Eyes and 10 XP Levels, highlighting enimies around you and giving you night vision."
+        },
+        "icon": {
+            "item": "minecraft:iron_nugget"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wiz30": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "wiz30"
+        ]
+    ],
+    "parent": "spegtunerpg:wiz20"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Speedy Speed Boy"
+        },
+        "description": {
+            "text": "Reach Level 60 in Agility."
+        },
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "agi60": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "agi60"
+        ]
+    ],
+    "parent": "spegtunerpg:agi50"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Runner Up"
+        },
+        "description": {
+            "text": "Reach Level 20 in Agility. While sprinting without any Heavy Armor, you gain Speed I."
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "agi20": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "agi20"
+        ]
+    ],
+    "parent": "spegtunerpg:agi10"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Always Give Top Priority To Caves!"
+        },
+        "description": {
+            "text": "Reach Level 30 in Mining. Haste Mining now lasts 20s."
+        },
+        "icon": {
+            "item": "minecraft:golden_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "min30": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "min30"
+        ]
+    ],
+    "parent": "spegtunerpg:min20"
+}

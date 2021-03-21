@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "I Am Lawn Mower"
+        },
+        "description": {
+            "text": "Reach Level 20 in Landscaping. Sometimes gain treasure while shoveling, called Mulching."
+        },
+        "icon": {
+            "item": "minecraft:grass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lan20": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "lan20"
+        ]
+    ],
+    "parent": "spegtunerpg:lan10"
+}

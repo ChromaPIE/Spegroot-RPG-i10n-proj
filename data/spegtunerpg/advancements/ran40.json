@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Local Gangster"
+        },
+        "description": {
+            "text": "Reach Level 40 in Ranged."
+        },
+        "icon": {
+            "item": "minecraft:flint"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ran40": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "ran40"
+        ]
+    ],
+    "parent": "spegtunerpg:ran30"
+}

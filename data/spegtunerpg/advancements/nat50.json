@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Nature's Bounty"
+        },
+        "description": {
+            "text": "Reach Level 50 in Naturecraft. Lets you cast Ocean's Waves using a Heart of the Sea and 16 XP Levels. Gives you Conduit Power and Dolphin's Grace for 10 minutes."
+        },
+        "icon": {
+            "item": "minecraft:pumpkin_pie"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "nat50": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "nat50"
+        ]
+    ],
+    "parent": "spegtunerpg:nat40"
+}

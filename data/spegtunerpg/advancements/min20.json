@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Better Than Miners"
+        },
+        "description": {
+            "text": "Reach Level 20 in Mining. Gets the ability to gain Haste II for 16s. Scales with level."
+        },
+        "icon": {
+            "item": "minecraft:iron_ore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "min20": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "min20"
+        ]
+    ],
+    "parent": "spegtunerpg:min10"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Faster than Light"
+        },
+        "description": {
+            "text": "Reach Level 80 in Agility. Saturation now lasts for 10s after being hit."
+        },
+        "icon": {
+            "item": "minecraft:diamond_boots"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "agi80": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "agi80"
+        ]
+    ],
+    "parent": "spegtunerpg:agi70"
+}

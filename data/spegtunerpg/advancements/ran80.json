@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Black Out The Sun"
+        },
+        "description": {
+            "text": "Reach Level 80 in Ranged. Wind Swift is Speed IV."
+        },
+        "icon": {
+            "item": "minecraft:tipped_arrow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ran80": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "ran80"
+        ]
+    ],
+    "parent": "spegtunerpg:ran70"
+}

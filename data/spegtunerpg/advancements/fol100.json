@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Folksmanship++"
+        },
+        "description": {
+            "text": "Reach Level 100 in Folksmanship."
+        },
+        "icon": {
+            "item": "minecraft:music_disc_mellohi"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fol100": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "fol100"
+        ]
+    ],
+    "parent": "spegtunerpg:fol90"
+}

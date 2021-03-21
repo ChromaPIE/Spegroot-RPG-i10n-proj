@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "You Exist"
+        },
+        "description": {
+            "text": "Reach Level 1 in Folksmanship. Leveling in Folksmanship will occasionally give the player Hero of the Villiage. Each level will make this happen quicker. Can tip other players once per hour by sneaking with torches in both hands."
+        },
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fol1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "fol1"
+        ]
+    ],
+    "parent": "spegtunerpg:root"
+}

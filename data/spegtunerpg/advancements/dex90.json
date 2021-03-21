@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Dexterity+"
+        },
+        "description": {
+            "text": "Reach Level 90 in Dexterity."
+        },
+        "icon": {
+            "item": "minecraft:music_disc_stal"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dex90": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "dex90"
+        ]
+    ],
+    "parent": "spegtunerpg:dex80"
+}

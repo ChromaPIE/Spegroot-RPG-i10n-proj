@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Needs More Mana"
+        },
+        "description": {
+            "text": "Reach Level 60 in Wizardry. Lets you cast the Crystal Breath spell with a diamond and 10 XP Levels, giving Slowness and Poison III to all who go within the 20 block area of effect line."
+        },
+        "icon": {
+            "item": "minecraft:golden_carrot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wiz60": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "wiz60"
+        ]
+    ],
+    "parent": "spegtunerpg:wiz50"
+}

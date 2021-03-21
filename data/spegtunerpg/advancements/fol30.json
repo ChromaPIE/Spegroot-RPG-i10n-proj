@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Notable Community Member"
+        },
+        "description": {
+            "text": "Reach Level 30 in Folksmanship. Grants Hero of the Villiage II when the skill's effect activates."
+        },
+        "icon": {
+            "item": "minecraft:sunflower"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fol30": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "fol30"
+        ]
+    ],
+    "parent": "spegtunerpg:fol20"
+}

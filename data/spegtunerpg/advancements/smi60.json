@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Strike It Hot"
+        },
+        "description": {
+            "text": "Reach Level 60 in Smithing."
+        },
+        "icon": {
+            "item": "minecraft:coal_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "smi60": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "smi60"
+        ]
+    ],
+    "parent": "spegtunerpg:smi50"
+}

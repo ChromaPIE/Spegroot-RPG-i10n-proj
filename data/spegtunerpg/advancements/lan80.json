@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "World Class Landscaping Firm"
+        },
+        "description": {
+            "text": "Reach Level 80 in Landscaping. Mulch now gives very valuable items on occasion."
+        },
+        "icon": {
+            "item": "minecraft:diamond_shovel"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lan80": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "lan80"
+        ]
+    ],
+    "parent": "spegtunerpg:lan70"
+}

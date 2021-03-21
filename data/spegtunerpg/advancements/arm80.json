@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Defender of the Faith"
+        },
+        "description": {
+            "text": "Reach Level 80 in Armor. You can now take up to 4 heart of damage and keep Resistance."
+        },
+        "icon": {
+            "item": "minecraft:diamond_helmet"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "arm80": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "arm80"
+        ]
+    ],
+    "parent": "spegtunerpg:arm70"
+}

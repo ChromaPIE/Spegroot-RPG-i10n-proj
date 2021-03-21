@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "\"Why do I take so much damage?\""
+        },
+        "description": {
+            "text": "Reach Level 1 in Armor. Gives the player Resistance after not taking damage for a while. Recharges faster by leveling up. Also gives a short ammount of Strength after blocking with a Shield."
+        },
+        "icon": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "arm1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "arm1"
+        ]
+    ],
+    "parent": "spegtunerpg:root"
+}

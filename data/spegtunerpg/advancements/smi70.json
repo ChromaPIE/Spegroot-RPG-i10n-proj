@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Uncle Coby's Forge"
+        },
+        "description": {
+            "text": "Reach Level 70 in Smithing."
+        },
+        "icon": {
+            "item": "minecraft:blast_furnace"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "smi70": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "smi70"
+        ]
+    ],
+    "parent": "spegtunerpg:smi60"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Plant Asset"
+        },
+        "description": {
+            "text": "Reach Level 30 in Naturecraft. Lets the player cast Sticks to Silverfish using a stick and 5 XP Levels. Summons a Silverfish nearby."
+        },
+        "icon": {
+            "item": "minecraft:jungle_leaves"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "nat30": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "nat30"
+        ]
+    ],
+    "parent": "spegtunerpg:nat20"
+}

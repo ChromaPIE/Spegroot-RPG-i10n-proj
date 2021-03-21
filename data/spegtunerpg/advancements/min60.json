@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Underground Tunnel Network"
+        },
+        "description": {
+            "text": "Reach Level 60 in Mining."
+        },
+        "icon": {
+            "item": "minecraft:diamond_ore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "min60": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "min60"
+        ]
+    ],
+    "parent": "spegtunerpg:min50"
+}

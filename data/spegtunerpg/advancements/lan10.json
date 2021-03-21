@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Cleanup Crew"
+        },
+        "description": {
+            "text": "Reach Level 10 in Landscaping."
+        },
+        "icon": {
+            "item": "minecraft:coarse_dirt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lan10": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "lan10"
+        ]
+    ],
+    "parent": "spegtunerpg:lan1"
+}

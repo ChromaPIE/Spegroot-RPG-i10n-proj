@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Swampy, Away!"
+        },
+        "description": {
+            "text": "Reach Level 40 in Naturecraft. New Spell: USB. Summon 3 Guardians around you using a Pufferfish and 8 XP Levels. Fish is USB."
+        },
+        "icon": {
+            "item": "minecraft:wooden_hoe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "nat40": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "nat40"
+        ]
+    ],
+    "parent": "spegtunerpg:nat30"
+}

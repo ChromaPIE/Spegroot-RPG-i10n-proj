@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Mining 101"
+        },
+        "description": {
+            "text": "Reach Level 1 in Mining. Has a chance to gain bonus ores while mining."
+        },
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "min1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "min1"
+        ]
+    ],
+    "parent": "spegtunerpg:root"
+}

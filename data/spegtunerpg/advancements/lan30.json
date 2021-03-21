@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Dirt Eater"
+        },
+        "description": {
+            "text": "Reach Level 30 in Landscaping. Haste Break now lasts for 1 minute."
+        },
+        "icon": {
+            "item": "minecraft:golden_shovel"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lan30": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "lan30"
+        ]
+    ],
+    "parent": "spegtunerpg:lan20"
+}

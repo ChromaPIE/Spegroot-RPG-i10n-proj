@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Super Sonic"
+        },
+        "description": {
+            "text": "Reach Level 40 in Agility. Lets you cast the Feather Fall spell with a Feather and 6 XP Levels, giving you Slow Falling for 20 seconds."
+        },
+        "icon": {
+            "item": "minecraft:blue_wool"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "agi40": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "agi40"
+        ]
+    ],
+    "parent": "spegtunerpg:agi30"
+}

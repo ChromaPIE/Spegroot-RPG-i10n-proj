@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Level 9 Slots"
+        },
+        "description": {
+            "text": "Reach Level 80 in Wizardry. Lets you cast the Supernova spell with a Nether Star and 50 XP Levels, creating a massive explosion."
+        },
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wiz80": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "wiz80"
+        ]
+    ],
+    "parent": "spegtunerpg:wiz70"
+}

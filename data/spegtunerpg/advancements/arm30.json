@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Defend for Yourself"
+        },
+        "description": {
+            "text": "Reach Level 30 in Armor. You can now take up to 2 hearts of damage without losing Resistance."
+        },
+        "icon": {
+            "item": "minecraft:chainmail_chestplate"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "arm30": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "arm30"
+        ]
+    ],
+    "parent": "spegtunerpg:arm20"
+}

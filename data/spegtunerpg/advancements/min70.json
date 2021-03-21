@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "St. Miner Island"
+        },
+        "description": {
+            "text": "Reach Level 70 in Mining. Haste Mining is now Haste III."
+        },
+        "icon": {
+            "item": "minecraft:glowstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "min70": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "min70"
+        ]
+    ],
+    "parent": "spegtunerpg:min60"
+}

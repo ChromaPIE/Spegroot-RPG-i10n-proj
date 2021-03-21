@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Kernal"
+        },
+        "description": {
+            "text": "Reach Level 70 in Authority. Horses now gain Speed II while mounted."
+        },
+        "icon": {
+            "item": "minecraft:yellow_wool"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "aut70": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "aut70"
+        ]
+    ],
+    "parent": "spegtunerpg:aut60"
+}

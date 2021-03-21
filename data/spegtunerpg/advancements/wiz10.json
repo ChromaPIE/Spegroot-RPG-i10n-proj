@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "You're A Wizard!"
+        },
+        "description": {
+            "text": "Reach Level 10 in Wizardry. Lets you cast the Alchemy spell with Iron Nugget and 2 XP Levels, giving you 4 Golden Nuggets in return."
+        },
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wiz10": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "wiz10"
+        ]
+    ],
+    "parent": "spegtunerpg:wiz1"
+}

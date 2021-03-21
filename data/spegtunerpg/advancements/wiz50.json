@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Spell Slinger"
+        },
+        "description": {
+            "text": "Reach Level 50 in Wizardry. Lets the user cast Nightmare with Crying Obsidian and 8 XP Levels. Gives all mobs within 20 blocks (excluding self) Blindness and Slowness IV for 10 seconds. Summons three phantoms above user."
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wiz50": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "wiz50"
+        ]
+    ],
+    "parent": "spegtunerpg:wiz40"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Spegtune RPG"
+        },
+        "description": {
+            "text": "You have loaded onto the server for the first time!"
+        },
+        "icon": {
+            "item": "minecraft:structure_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "exist": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "exist"
+        ]
+    ]
+}

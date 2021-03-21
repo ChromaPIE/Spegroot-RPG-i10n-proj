@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Command & Conquer"
+        },
+        "description": {
+            "text": "Reach Level 1 in Authority. Heals horses / wolves around you periodically. Scales with level."
+        },
+        "icon": {
+            "item": "minecraft:carrot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "aut1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "aut1"
+        ]
+    ],
+    "parent": "spegtunerpg:root"
+}

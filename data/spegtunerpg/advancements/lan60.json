@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Forestery"
+        },
+        "description": {
+            "text": "Reach Level 60 in Landscaping."
+        },
+        "icon": {
+            "item": "minecraft:acacia_sapling"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lan60": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "lan60"
+        ]
+    ],
+    "parent": "spegtunerpg:lan50"
+}

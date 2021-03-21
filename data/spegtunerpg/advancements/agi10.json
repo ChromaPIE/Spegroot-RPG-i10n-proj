@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Walk & Talk"
+        },
+        "description": {
+            "text": "Reach Level 10 in Agility. Lets you cast the Jump spell with Sugar and 4 XP Levels, giving you Jump VI for 2 seconds."
+        },
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "agi10": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "agi10"
+        ]
+    ],
+    "parent": "spegtunerpg:agi1"
+}

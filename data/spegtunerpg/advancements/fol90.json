@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Folksmansip+"
+        },
+        "description": {
+            "text": "Reach Level 90 in Folksmanship."
+        },
+        "icon": {
+            "item": "minecraft:music_disc_wait"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fol90": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "fol90"
+        ]
+    ],
+    "parent": "spegtunerpg:fol80"
+}

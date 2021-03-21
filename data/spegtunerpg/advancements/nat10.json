@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Reap What You Sew"
+        },
+        "description": {
+            "text": "Reach Level 10 in Naturecraft. Can smoke mushrooms by offhanding them and sneaking, while having atleast 4XP levels. Red 50% chance of Poison or Regeneration, Brown 50% chance of Nausia or Night Vision, Crimson 50% chance of Wither or Fire Resist, Warped 50% chance of Levetation or Feather Fall."
+        },
+        "icon": {
+            "item": "minecraft:farmland"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "nat10": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "nat10"
+        ]
+    ],
+    "parent": "spegtunerpg:nat1"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Spriggan"
+        },
+        "description": {
+            "text": "Reach Level 60 in Naturecraft. Grants Soul Shift. By offhanding a Soul Lantern and sneaking with 4 XP, the soils and flames within a 20 block cube become tainted by the nether. Changes block types to corresponding nether type."
+        },
+        "icon": {
+            "item": "minecraft:jungle_sapling"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "nat60": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "nat60"
+        ]
+    ],
+    "parent": "spegtunerpg:nat50"
+}

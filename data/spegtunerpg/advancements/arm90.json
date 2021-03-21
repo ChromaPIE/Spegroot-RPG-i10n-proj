@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Armor+"
+        },
+        "description": {
+            "text": "Reach Level 90 in Armor."
+        },
+        "icon": {
+            "item": "minecraft:music_disc_mall"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "arm90": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "arm90"
+        ]
+    ],
+    "parent": "spegtunerpg:arm80"
+}

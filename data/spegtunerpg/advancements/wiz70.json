@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Warlock"
+        },
+        "description": {
+            "text": "Reach Level 70 in Wizardry. New Spell: Dimension Door. Teleport 32 blocks forward using a Popped Chorus Fruit and 8 XP Levels."
+        },
+        "icon": {
+            "item": "minecraft:purple_banner"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wiz70": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "wiz70"
+        ]
+    ],
+    "parent": "spegtunerpg:wiz60"
+}

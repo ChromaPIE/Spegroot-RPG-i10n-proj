@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Side Character"
+        },
+        "description": {
+            "text": "Reach Level 10 in Folksmanship. Milk Drinker, lets the player gain Regeneration II for 8 seconds after drinking milk"
+        },
+        "icon": {
+            "item": "minecraft:milk_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fol10": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "fol10"
+        ]
+    ],
+    "parent": "spegtunerpg:fol1"
+}

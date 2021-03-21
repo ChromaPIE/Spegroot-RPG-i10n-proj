@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Break It Down Now"
+        },
+        "description": {
+            "text": "Reach Level 40 in Strength. Gain Strength I while unarmed."
+        },
+        "icon": {
+            "item": "minecraft:beetroot_soup"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "str40": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "str40"
+        ]
+    ],
+    "parent": "spegtunerpg:str30"
+}

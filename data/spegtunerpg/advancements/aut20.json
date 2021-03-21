@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Listen Here, Buddy!"
+        },
+        "description": {
+            "text": "Reach Level 20 in Authority. Gives Speed I to ridden horses."
+        },
+        "icon": {
+            "item": "minecraft:apple"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "aut20": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "aut20"
+        ]
+    ],
+    "parent": "spegtunerpg:aut10"
+}

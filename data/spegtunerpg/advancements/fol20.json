@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Reputation Rising"
+        },
+        "description": {
+            "text": "Reach Level 20 in Folksmanship."
+        },
+        "icon": {
+            "item": "minecraft:cooked_beef"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fol20": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "fol20"
+        ]
+    ],
+    "parent": "spegtunerpg:fol10"
+}
